@@ -8,12 +8,12 @@ Free proxy servers list
 
 #### install
 ```
-npm i -S proxy-list
+npm i -S proxy-sources
 ```
 
 #### usage
 ```js
-const ProxyList = require('proxy-list')
+const ProxyList = require('proxy-sources')
 const rp = require('request-promise')
 
 ;(async () => {
