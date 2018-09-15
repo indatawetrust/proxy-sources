@@ -1,0 +1,20 @@
+{
+  "name": "proxy-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "indatawetrust",
+  "license": "MIT",
+  "dependencies": {
+    "node-cache": "^4.2.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
