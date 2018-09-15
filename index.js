@@ -15,7 +15,7 @@ module.exports = () => {
             if (!error && response.statusCode === 200) {
               proxies = body.trim().split(/\n/);
 
-              cache.set('proxies', proxies, 60000, err => {
+              cache.set('proxies', proxies, 3600, err => {
                 if (!err) {
                   resolve({
                     list: proxies,
