@@ -1,7 +1,7 @@
 {
   "name": "proxy-sources",
-  "version": "1.0.0",
-  "description": "[![Travis Build Status](https://img.shields.io/travis/indatawetrust/proxy-list.svg)](https://travis-ci.org/indatawetrust/proxy-list)",
+  "version": "1.0.1",
+  "description": "[![Travis Build Status](https://img.shields.io/travis/indatawetrust/proxy-sources.svg)](https://travis-ci.org/indatawetrust/proxy-sources)",
   "main": "index.js",
   "scripts": {
     "test": "ava"
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/indatawetrust/proxy-list.git"
+    "url": "git+https://github.com/indatawetrust/proxy-sources.git"
   },
   "keywords": [
     "proxy",
@@ -27,7 +27,7 @@
     "proxies"
   ],
   "bugs": {
-    "url": "https://github.com/indatawetrust/proxy-list/issues"
+    "url": "https://github.com/indatawetrust/proxy-sources/issues"
   },
-  "homepage": "https://github.com/indatawetrust/proxy-list#readme"
+  "homepage": "https://github.com/indatawetrust/proxy-sources#readme"
 }

@@ -4,16 +4,16 @@ import rp from 'request-promise'
 
 test('test', async t => {
 
-  const pl = await ProxyList();
-    
+  const pl = await ProxyList({ checker: true, timeout: 500 });
+
   for (let i=0;i<3;i++) {
-  
+
     const options = {
       uri: 'https://api.myip.com',
       proxy: `http://${pl.random()}`,
       json: true
     }
-    
+
     t.is(typeof (await rp(options)), "object")
 
   }
