@@ -7,7 +7,10 @@ module.exports = (opts = { checker: false, timeout: 5e3 }) => {
   return new Promise((resolve, reject) => {
     cache.get('proxies', (err, proxies) => {
       if (!err && proxies) {
-        resolve(proxies);
+        resolve({
+          list: proxies,
+          random: () => proxies[Math.floor(Math.random()*proxies.length)]
+        });
       } else {
         request(
           'https://raw.githubusercontent.com/a2u/free-proxy-list/master/free-proxy-list.txt',
