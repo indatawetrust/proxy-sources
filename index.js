@@ -13,7 +13,7 @@ module.exports = (opts = { checker: false, timeout: 5e3 }) => {
         });
       } else {
         request(
-          'https://raw.githubusercontent.com/a2u/free-proxy-list/master/free-proxy-list.txt',
+          'https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt',
           (error, response, body) => {
             if (!error && response.statusCode === 200) {
               proxies = body.trim().split(/\n/);
