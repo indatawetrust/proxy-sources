@@ -1,7 +1,7 @@
 [![Travis Build
 Status](https://img.shields.io/travis/indatawetrust/proxy-sources.svg)](https://travis-ci.org/indatawetrust/proxy-sources)
 
-proxy list resource: https://github.com/a2u/free-proxy-list
+proxy list resource: https://github.com/clarketm/proxy-list
 
 # proxy-list
 Free proxy servers list
