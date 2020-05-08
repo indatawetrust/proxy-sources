@@ -1,6 +1,6 @@
 {
   "name": "proxy-sources",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "[![Travis Build Status](https://img.shields.io/travis/indatawetrust/proxy-sources.svg)](https://travis-ci.org/indatawetrust/proxy-sources)",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "ava": "^0.25.0",
+    "ava": "^3.8.2",
     "request": "^2.88.0",
     "request-promise": "^4.2.2"
   },

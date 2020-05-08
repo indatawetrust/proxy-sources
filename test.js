@@ -1,6 +1,6 @@
-import test from 'ava'
-import ProxyList from '.'
-import rp from 'request-promise'
+const test = require('ava');
+const ProxyList = require('.')
+const rp = require('request-promise')
 
 test('test', async t => {
 
